@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class DropdownPageTest extends BaseTest {
 
-    @DisplayName("Работоспособность кнопки Alert")
+    @DisplayName("Проверка выпадающего списка")
     @Test
     public void dropdownTest() {
         dropdownPage.dropdownMenuBtn.click();

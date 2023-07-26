@@ -19,7 +19,7 @@ public class UploadPageTest extends BaseTest {
         uploadPage.uploadResonse.shouldHave(Condition.exactText("You have successfully uploaded \"file.pdf\""));
     }
 
-    @Disabled //BUG Нет ошибки при нажатии кнопки Submit без файла
+    @Disabled //BUG Нет ошибки при нажатии кнопки Submit без загрузки файла
     @DisplayName("Нажатие кнопки загрузки без файла")
     @Test()
     public void emptyUploadTest() {
